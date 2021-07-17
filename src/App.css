@@ -1,0 +1,158 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+img{
+  height: 90px;
+}
+.playground {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1E1E2C;
+}
+.logo{
+  width: 100%;
+  color: white;
+  font-weight: 2000;
+  background-color: #13131d;
+  padding: 2rem;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.maincontent {
+  display: flex;
+  flex-direction: row;
+  background: #1e1e2ced;
+  min-height: 330px;
+  
+}
+.CodeMirror-lines {
+  padding: 4px 0 !important;
+}
+.items{
+  display: flex;
+  flex-direction: column;
+  
+}
+button{
+  text-align: center;
+  font-size: larger;
+  width: 100%;
+  padding:1.5rem;
+  color: white;
+  font-weight: 800;
+  border: none!important;
+  background: none;
+}
+button:hover{
+  cursor: pointer;
+  background: #1E1E2C;
+}
+.navbar{
+  margin-top: 5px;
+  width: 15%;
+  height: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  padding:3px;
+  
+}
+span.nav-content{
+  margin-top: 7px!important;
+  padding-bottom: 0.75rem;
+  padding-top: 0.15rem;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+  margin-top: 3px!important;
+  
+}
+.code-editor {
+  height: 33.33%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.editor-header {
+  height: 35px;
+  content: attr(title);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #fafafa;
+}
+
+
+.cm-s-material.CodeMirror {
+  background-color: #1E1E2C!important;
+  color: #EEFFFF;
+}
+.html-code,.css-code,.js-code{
+  border-top: #263238 2px solid;
+  min-height: 330px;
+}
+.CodeMirror-linenumbers {
+  background: #1E1E2C!important;
+}
+
+.result {
+  margin-top: 3px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 600px;
+  height: 100%;
+  min-height: 1500px;
+  overflow: hidden;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.editor-header {
+  height: 30px;
+  content: attr(title);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #fafafa;
+}
+
+.react-codemirror2 {
+  max-height: calc(100% - 30px);
+  overflow: auto;
+}
+
+.result {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 600px;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+}
